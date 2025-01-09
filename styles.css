@@ -1,0 +1,119 @@
+html {
+    font-family: 'Courier New', monospace;
+    background-color: lightpink;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+div.top-bar {
+    background-color: rgb(245, 163, 175);
+    color: black;
+    border-color: black;
+    border: none;
+    font-size: normal;
+    align-items: center;
+    font-size: smaller;
+    padding: 10px;
+}
+
+div.pinkbanner {
+    background-color: lightpink;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    opacity: 1;
+    background-color: lightpink;
+}
+
+div.wrap {
+    top: 10px;
+    left: 0;
+    opacity: 1;
+    background-color: rgb(245, 163, 175);
+    color: black;
+    padding: 7px 10px;
+    border-color: black;
+    border: none;
+    font-size: smaller;
+    align-items: center;
+}
+
+a {
+    background-color: lightpink;
+    color: black;
+    padding: 7px 10px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+pre {
+    display: flex;
+    color: black;
+    border-radius: 5px;
+    justify-content: center;
+    margin: 10px;
+    font-size: smaller;
+}
+
+div.wishlist-container {
+    background-color: lightpink;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 10px;
+}
+
+div.wishlist-outer {
+    background-color: rgb(245, 163, 175);
+    padding: 7px 10px;
+}
+
+div.wishlist-inner {
+    background-color: lightpink;
+    padding: 7px 10px;
+}
+
+div.wishlist-header {
+    background-color: rgb(245, 163, 175);
+    padding: 7px 10px;
+}
+
+div.wishlist-body {
+    background-color: rgb(245, 163, 175);
+    padding-left: 7px;
+    padding-right: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+div.wishlist-desc {
+    background-color: rgb(245, 163, 175);
+    padding: 7px 10px;
+    width: 50%;
+    align-items: right;
+}
+
+div.wishlist-image {
+    background-color: rgb(245, 163, 175);
+    width: 50%;
+    padding: 7px 10px;
+    align-items: center;
+}
+
+main {
+    margin-top: 100px;
+}
